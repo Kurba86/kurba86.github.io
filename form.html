@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Формы</title>
+	<style type="text/css">
+		body{
+			background-color: pink;
+		}
+		select{
+			background: #80efe2;
+		}
+	</style>
+</head>
+<body>
+	
+<form>
+	<label>Name<br>
+	<input type="text" name="firstname" /></label><br>
+	<label>Email<br>
+	<input type="Email" name="mail" /></label><br><br>
+	Sex<br>
+	<label><input type="radio" name="gender" value="male">Male</label>
+	<label><input type="radio" name="gender" value="female">Female</label><br><br>
+	Current status<br>
+	<input type="checkbox" name="Currentstatus" value="student">Student<br>
+	<input type="checkbox" name="Currentstatus" value="employed">Employed<br>
+	<input type="checkbox" name="Currentstatus" value="unemloyed">Unemloyed<br><br>
+	Month and Year of birth<br>
+	<input type="month" name="date" style="border-radius: 5px" ><br><br>
+	Skills and Technologies<br>
+<select name="Skills" multiple="multiple" size="9">
+		
+	<optgroup label="Tech skills">
+		<option value="html">Html</option>
+		<option value="css">CSS</option>
+		<option value="git">Git</option>
+	</optgroup>	
+	<optgroup label="Soft skills">
+		<option value="management">Time management</option>
+		<option value="proactivity">Proactivity</option>
+		<option value="teamwork">Teamwork</option>
+		<option value="leadership">Leadership</option>
+	</optgroup>
+
+</select><br>
+<p>Photo<br>
+<input type="file" name="foto" value="Choosefile"></p>
+Comments<br>
+<textarea rows="3" cols="20" name="mytext"></textarea>
+
+<p><input type="button" name="save" value="Save"></p>
+
+
+</form>
+
+</body>
+</html>
