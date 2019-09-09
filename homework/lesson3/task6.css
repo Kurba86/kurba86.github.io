@@ -1,0 +1,63 @@
+label[for="red"],label[for="green"],label[for="blue"] {
+	/*border-bottom: 2px solid red;*/
+	text-decoration: underline;
+	color: red;
+	margin-right: 30px;
+	cursor: pointer;
+
+}
+label[for="green"]{
+	color: green;
+}
+label[for="blue"]{
+	color: blue;
+}
+input[id]{
+	display: none;
+}
+
+span{
+	margin-right: 10px;
+	padding:0 8px 2px ;
+}
+
+.red{
+	background: red;
+	color: white;
+	border-radius: 5px;
+}
+.green{
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+.blue{
+	background: blue;
+	color: white;
+	border-radius: 5px;
+}
+
+#red:checked~label[for="red"],
+#green:checked~label[for="green"],
+#blue:checked~label[for="blue"]{
+	opacity: 0.4;
+	text-decoration: none;
+}
+
+#red:checked ~.red,
+#blue:checked ~.blue,
+#green:checked ~.green
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
