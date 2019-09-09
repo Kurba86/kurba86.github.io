@@ -11,7 +11,7 @@ li:nth-last-child(n+7) a{
 }
  /*transform: scaleX(-1);*/
 
-a[href="http://maps.yandex.ru"]:after{
+li:nth-child(5) a:after{
 	content: "⇱";
 	transform: scalex(-1);
 	display: inline-block;
