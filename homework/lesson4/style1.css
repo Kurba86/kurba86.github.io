@@ -1,0 +1,33 @@
+div{
+	width: 100%;
+	background: #a64dff;
+	border-radius: 6px;
+}
+ul{
+	width: 900px;
+	/*background: aqua;*/
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	color: #ffffff;
+	padding: 10px 30px;
+	font-family: Economica;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 auto;
+
+}
+li:hover{
+	background: #eee;
+	color: #a0a0a0;
+	border-radius: 5px;
+}
+
+
+
+

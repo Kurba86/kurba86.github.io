@@ -1,0 +1,37 @@
+div{
+	width: 100%;
+	background: #a64dff;
+	border-radius: 6px;
+}
+ul{
+	width: 900px;
+	/*background: aqua;*/
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+	
+}
+li{
+	/*display: inline-block;*/
+	float: left;
+	color: #ffffff;
+	padding: 10px 0 10px 0;
+	font-family: Economica;
+	font-weight: bold;
+	font-size: 18px;
+	/*margin: 0 auto;*/
+	width: 90px;
+
+}
+li:nth-child(8){
+	float: right;
+}
+
+li:hover{
+	background: #eee;
+	color: #a0a0a0;
+	border-radius: 5px;
+}
